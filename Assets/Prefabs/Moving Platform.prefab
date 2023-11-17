@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365736314110118135}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.67, y: 4.14, z: -1.3972639}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.0864887, y: -3.5057237, z: -1.4179584}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44,7 +44,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9200414509884386306}
   m_Layer: 0
-  m_Name: Way Point al
+  m_Name: Way Point l
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 1675119356991843573}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.170623, y: 0.31573582, z: 1.3972639}
+  m_LocalPosition: {x: 1.66, y: 0.31573582, z: 1.3972639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75,7 +75,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5055502471508760141}
   m_Layer: 0
-  m_Name: Way Point ar
+  m_Name: Way Point r
   m_TagString: Untagged
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ Transform:
   m_GameObject: {fileID: 6202192693062829527}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5993767, y: 0.31573582, z: 1.3972639}
+  m_LocalPosition: {x: 5.14, y: 0.31573582, z: 1.3972639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 2502992673157650064}
   - component: {fileID: 4177770294585315487}
   m_Layer: 6
-  m_Name: Moving Platform a
+  m_Name: Moving Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,7 +127,7 @@ Transform:
   m_GameObject: {fileID: 7566653256263574508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.0493765, y: 0.31573582, z: 1.3972639}
+  m_LocalPosition: {x: 3.44, y: 0.31573582, z: 1.3972639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -254,7 +254,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.042901754}
+  m_Offset: {x: 0, y: -0.09463525}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -265,7 +265,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 0.30263567}
+  m_Size: {x: 2, y: 0.19434404}
   m_EdgeRadius: 0
 --- !u!61 &2502992673157650064
 BoxCollider2D:
@@ -299,7 +299,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.020027399, y: 0.08216739}
+  m_Offset: {x: -0.0050504208, y: 0.0793972}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -310,7 +310,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6234822, y: 0.09533453}
+  m_Size: {x: 1.8663301, y: 0.08178425}
   m_EdgeRadius: 0
 --- !u!114 &4177770294585315487
 MonoBehaviour:
