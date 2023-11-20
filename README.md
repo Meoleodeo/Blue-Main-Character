@@ -6,6 +6,7 @@
 git clone https://github.com/Meoleodeo/Blue-Main-Character
 cd .\Blue-Main-Character\SetUp\
 start '.\Blue Main Character - Setup.exe'
+
 ```
 # Features:
 - Press W_Key: jump
