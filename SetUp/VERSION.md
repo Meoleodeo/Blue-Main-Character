@@ -10,4 +10,5 @@
 # Descripton:
 - Game Blue Main Character made by Unity engine (C#)
 [Video-Demo](https://www.youtube.com/channel/UCmmPqymrwJRLnOILNsLdksg)
+- Author: [Mèo leo đèo](https://www.facebook.com/Meo.leo.deo)
 
