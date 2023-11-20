@@ -9,7 +9,7 @@ start '.\Blue Main Character - Setup.exe'
 
 ```
 # Features:
-- Press W_Key: jump
+- Press W_Key or Space_Key: jump
 - Press A_Key or Left_Key: move left
 - Press D_Key or Right_Key: move right
 
