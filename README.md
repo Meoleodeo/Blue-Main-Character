@@ -1,14 +1,6 @@
 # Blue Main Character
-> [Descripton](#descripton)
-> [Install and Set-up](#install-and-set-up)
-> [Release](#download-the-latest-release)
-> [Screenshot Demo](#screenshot)
-> [Main Features include](#main-features-include)
-> [Tutorial](#tutorial)
-
-
-
-# Descripton:
+> [Description](#description) | [Install and Set-up](#install-and-set-up) | [Release](#download-the-latest-release) | [Screenshot Demo](#screenshot) | [Main Features include](#main-features-include) | [Tutorial](#tutorial)
+# Description:
 - A game made by Unity engine (C#)
 > [Video-Demo](https://www.youtube.com/channel/UCmmPqymrwJRLnOILNsLdksg)
 - Author: [Mèo leo đèo](https://github.com/meoleodeo)
