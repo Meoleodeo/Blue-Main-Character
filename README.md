@@ -1,7 +1,7 @@
 # Blue Main Character
 # Descripton:
 - A game made by Unity engine (C#)
-[Video-Demo](https://www.youtube.com/channel/UCmmPqymrwJRLnOILNsLdksg)
+> [Video-Demo](https://www.youtube.com/channel/UCmmPqymrwJRLnOILNsLdksg)
 - Author: [Mèo leo đèo](https://github.com/meoleodeo)
 ## Install and Set-up:
 ```bash
@@ -12,7 +12,7 @@ start version.vbs
 ```
 # [_Download the latest release!!_](https://github.com/Meoleodeo/Blue-Main-Character/releases)
 # Screenshot:
-
+![DEMO](screenshoot\DemoLv1.png)
 # Main Features include:
 - update later
 # Tutorial:
