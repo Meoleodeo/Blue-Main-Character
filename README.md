@@ -12,7 +12,7 @@ start version.vbs
 ```
 # [_Download the latest release!!_](https://github.com/Meoleodeo/Blue-Main-Character/releases)
 # Screenshot:
-![DEMO](screenshoot\DemoLv1.png)
+![DEMO](./screenshoot/DemoLv1.png)
 # Main Features include:
 - update later
 # Tutorial:
