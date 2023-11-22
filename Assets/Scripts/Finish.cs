@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+using ItemCollectorNameSpace;
+
+
 public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
 
+    [SerializeField] private int cherriesEnough;
+    private int cherries = 0;
     private bool levelCompleted = false;
+
     private void Start()
     {
         finishSound = GetComponent<AudioSource>();        
@@ -17,7 +23,10 @@ public class Finish : MonoBehaviour
         {
             finishSound.Play();
             levelCompleted = true;
+            if (cherries == cherriesEnough)
+            {
             Invoke("CompleteLevel", 2f);
+            }
         }
     }
 
