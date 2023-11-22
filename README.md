@@ -15,6 +15,7 @@ start .\version.vbs
 ## Screenshot:
 ![DEMO](./screenshoot/DemoLv1.png)
 ## Main Features include:
+- Depends on [version](https://github.com/Meoleodeo/Blue-Main-Character/releases)
 - update later
 ## Tutorial:
 - Press W_Key or Space_Key: jump
