@@ -17,7 +17,8 @@ public class PlayerLife : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision) {
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
         if (collision.gameObject.CompareTag("Trap"))
         {
             Die();
@@ -26,6 +27,7 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
+        ItemCollector.cherries = 0;
         deathSounfEffect.Play();
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
