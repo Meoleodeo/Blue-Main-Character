@@ -9,7 +9,7 @@
 git clone https://github.com/Meoleodeo/Blue-Main-Character
 cd .\Blue-Main-Character\SetUp\
 start '.\Blue Main Character - Setup.exe'
-start .\version.vbs
+echo thanks
 ```
 ## [_Download the latest release!!_](https://github.com/Meoleodeo/Blue-Main-Character/releases)
 ## Screenshot:
