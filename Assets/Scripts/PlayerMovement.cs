@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator anim;
 
+    public static bool CheatMode = false;
+
     [SerializeField] private LayerMask jumpableGround;
     private float dirX = 0f;
     private float dirY = 0f;
@@ -34,13 +36,19 @@ public class PlayerMovement : MonoBehaviour
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-         dirY = Input.GetAxisRaw("Jump");
+        dirY = Input.GetAxisRaw("Jump");
         if ((dirY > .1f) && IsGrounded())
         {
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, dirY * jumpForce);
             
         }
+
+        if (CheatMode && (dirY > .1f) ){
+            jumpSoundEffect.Play();
+            rb.velocity = new Vector2(rb.velocity.x, dirY * jumpForce);
+        }
+
 
         UpdateAnimationState();        
     }
@@ -74,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         }
         anim.SetInteger("state", (int)state);
     }
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }

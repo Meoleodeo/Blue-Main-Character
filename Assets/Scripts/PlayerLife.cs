@@ -8,6 +8,8 @@ public class PlayerLife : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    public static string trap = "Trap";
+
     [SerializeField] private AudioSource deathSounfEffect;
 
     // Start is called before the first frame update
@@ -19,7 +21,7 @@ public class PlayerLife : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag(trap))
         {
             Die();
         }
