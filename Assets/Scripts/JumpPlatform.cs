@@ -6,6 +6,8 @@ public class JumpPlatform : MonoBehaviour
 {
     public float jumpForce = 24f;
 
+    [SerializeField] private bool canDisappear = false;
+
     private Animator anim;
     void Start()
     {
@@ -19,9 +21,12 @@ public class JumpPlatform : MonoBehaviour
             Rigidbody2D playerRb = collision.GetComponent<Rigidbody2D>();
             if (playerRb != null)
             {
-            playerRb.velocity = new Vector2(playerRb.velocity.x, jumpForce);
-            anim.SetTrigger("JumpPlatform");
-            Destroy(gameObject, 1f);
+                playerRb.velocity = new Vector2(playerRb.velocity.x, jumpForce);
+                anim.SetTrigger("JumpPlatform");
+                if (canDisappear)
+                {
+                    Destroy(gameObject, 1f);
+                }
             }
         }
     }

@@ -12,14 +12,16 @@ public class CheatMode : MonoBehaviour
         }
     }
 
-    public static void SetCheatOff(){
+    public static void SetCheatOff()
+    {
         PlayerMovement.CheatMode = false;
-        PlayerLife.trap= "Trap";
+        PlayerLife.trap = "Trap";
     }
 
-    public void SetCheatMode(){
+    public void SetCheatMode()
+    {
         PlayerMovement.CheatMode = true;
-        PlayerLife.trap= "deo co tac dung nua";
+        PlayerLife.trap = "deo co tac dung nua";
     }
 
 }

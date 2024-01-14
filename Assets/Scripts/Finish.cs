@@ -29,9 +29,9 @@ public class Finish : MonoBehaviour
             }
             else
             {
-            notification.text = "not enough cherries";
-            notification.gameObject.SetActive(true);
-            Invoke("HideMessage", 2f);
+                notification.text = "not enough cherries";
+                notification.gameObject.SetActive(true);
+                Invoke("HideMessage", 2f);
             }
 
         }

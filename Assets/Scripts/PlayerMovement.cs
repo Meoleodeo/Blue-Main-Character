@@ -41,16 +41,17 @@ public class PlayerMovement : MonoBehaviour
         {
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, dirY * jumpForce);
-            
+
         }
 
-        if (CheatMode && (dirY > .1f) ){
+        if (CheatMode && (dirY > .1f))
+        {
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, dirY * jumpForce);
         }
 
 
-        UpdateAnimationState();        
+        UpdateAnimationState();
     }
 
     private void UpdateAnimationState()
@@ -59,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (dirX > 0f)
         {
-           state = MovementState.running;
+            state = MovementState.running;
             sprite.flipX = false;
         }
         else if (dirX < 0f)
